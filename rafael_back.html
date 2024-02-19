@@ -19,6 +19,8 @@ async function fetchApiData() {
         <td>${data.cpf}</td>
         <td>${data.birth_date}</td>
         <td>${data.email}</td>
+        <td>${data.phone_number}</td>
+        <td>${data.credit_card.number}</td>
       </tr>
     `;
   }
@@ -39,6 +41,8 @@ async function fetchApiData() {
         <th>CPF</th>
         <th>Data de Nasc.</th>
         <th>Email</th>
+        <th>Telefone</th>
+        <th>ID Cartão de Crédito</th>
       </tr>
     </thead>
     <tbody id="apiTableBody">
